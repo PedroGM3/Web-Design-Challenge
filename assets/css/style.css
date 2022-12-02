@@ -1,0 +1,134 @@
+/* main content styling*/
+#main-content-container{
+    background-color: white;
+    padding: 20px; 
+}
+
+/* navbar styling*/
+#navbar-brand{
+    color: black;
+    padding: 10px;
+    background-color: #041134;
+    font-family: 'Arial', Helvetica;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.navbar a:link {
+    color: rgb(126, 121, 121);
+  }
+
+.navbar a:visited {
+    color: rgb(126, 121, 121);
+  }
+
+/*footer styling*/
+#page-footer{
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* headers styling*/
+h3{
+    color: #041134;
+    font-family: 'Arial', Helvetica;
+    padding: 15px;
+    font-weight: bold
+}
+
+/* image styling*/
+img {
+    width:100%;
+    padding:10px;
+    border: none;
+}
+
+#imgsel{
+    border: #041134 2px solid;
+  }
+
+/* paragraph styling*/
+p{
+   font-family: Arial, Helvetica;
+   font-size: medium;
+   padding: 10px;
+   font-stretch: expanded;
+   line-height: 30px;
+   text-align: justify;
+}
+
+/* body and columns background*/
+body{
+    background-color: white;
+}
+.col-lg-4 {
+    background-color: white;
+    padding-top: 20px;
+    padding-left: -10px;
+    padding-bottom:40px;
+}
+
+.col-lg-8 {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+    padding-right: 10px;
+}
+
+/* navbar styling*/
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+/* content styling*/
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content-bgwhite {
+    margin-top: 15px;
+}
+
+/* table text adjustments*/
+tr>th:nth-child(1),
+tr>th:nth-child(3),
+tr>th:nth-child(6),
+tr>th:nth-child(7),
+tr>th:nth-child(8),
+tr>th:nth-child(9),
+tr>th:nth-child(10),
+tr>td:nth-child(1),
+tr>td:nth-child(3),
+tr>td:nth-child(6),
+tr>td:nth-child(7),
+tr>td:nth-child(8),
+tr>td:nth-child(9),
+tr>td:nth-child(10) {
+    text-align: right;
+}
+
+
+/* for small screen adjustments*/
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color:#041134!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #041134;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
+
